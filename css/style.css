@@ -289,7 +289,7 @@ html{
    width:600px ;
  } 
  .about-text{
-  margin: 3rem;
+  
   width: 360px;
  }
  @media all and (max-width:1130px){
@@ -297,9 +297,7 @@ html{
   .about-subtitle{
     font-size: 20px;    
    }
-   .about-text{
-    margin: 1rem;
-   }
+  
    .about-img{
     width: 450px;
    }   
@@ -336,6 +334,7 @@ html{
     margin-bottom: 2px;
     background: linear-gradient(180deg,#BC10D8 0%,rgba(80,0,250,0.93)100%);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
   }
   .tabs{
     display: grid;
@@ -484,6 +483,7 @@ html{
      text-transform: uppercase;
      background:linear-gradient(180deg,#BC10D8 0%,rgba(80,0,250,0.93)100%);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
      font-size: 36px;
      margin-bottom: 10px;
    }
@@ -525,6 +525,7 @@ html{
    .blog_item_link{
      background:linear-gradient(180deg,#BC10D8 0%,rgba(80,0,250,0.93)100%);
      -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
      margin-top: auto;
      text-align: center;
      margin-bottom: 10px;
@@ -579,6 +580,8 @@ html{
   text-align: center;
   background:linear-gradient(180deg,#BC10D8 0%,rgba(80,0,250,0.93)100%);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 
 }
 .prices-container {
